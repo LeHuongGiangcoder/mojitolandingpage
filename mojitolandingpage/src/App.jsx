@@ -6,6 +6,7 @@ import Hero from './components/Hero.jsx'
 import Cocktails from './components/Cocktails.jsx'
 import About from './components/About.jsx'
 import Art from './components/Art.jsx'
+import Booking from './components/Booking.jsx'
 
 gsap.registerPlugin(ScrollTrigger, SplitText); 
 
@@ -17,6 +18,7 @@ const App = () => {
       <Cocktails />
       <About />
       <Art />
+      <Booking />
     </main>
   )
 }
