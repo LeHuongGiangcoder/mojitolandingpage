@@ -202,7 +202,7 @@ const Booking = () => {
 
                     {status === 'success' && (
                         <div className="p-4 bg-green-500/20 border border-green-500/50 rounded-xl text-green-200 text-center">
-                            Booking received! We will confirm your reservation shortly.
+                            Booking received! Please check your email for confirmation. 
                         </div>
                     )}
 
