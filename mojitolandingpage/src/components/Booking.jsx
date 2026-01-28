@@ -28,8 +28,8 @@ const Booking = () => {
         e.preventDefault();
         setStatus('submitting');
 
-        // Use the Test URL for debugging (webhook-test)
-        const webhookUrl = 'https://n8n.giangle.site/webhook-test/7043f51e-0c1f-4a90-b471-76b78b5a3c82';
+        // Production Webhook URL
+        const webhookUrl = 'https://n8n.giangle.site/webhook/7043f51e-0c1f-4a90-b471-76b78b5a3c82';
         
         // Construct URL with query parameters for GET request
         const params = new URLSearchParams(formData);
